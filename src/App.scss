@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css?family=Alegreya+Sans|Ubuntu:700');
+
+$body-fonts: 'Alegreya Sans', sans-serif;
+$title-fonts: 'Ubuntu', sans-serif;
+
+.App {
+  text-align: center;
+  display: flex;
+}
+
+.page {
+  color: #ffde0a;
+  background-color: black;
+}
+
+.title {
+  text-align: center;
+  font-family: $title-fonts;
+  font-size: 72px;
+}
+
+.subtitle {
+  text-align: center;
+  text-family: $body-fonts;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}

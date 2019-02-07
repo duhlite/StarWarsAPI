@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css?family=Alegreya+Sans|Lato|Ubuntu:700');
+
+$body-fonts: 'Alegreya Sans', sans-serif;
+$title-fonts: 'Ubuntu', sans-serif;
+$nav-fonts: 'Lato', sans-serif;
+
+.card {
+    margin: 1rem;
+    border: 1px #ffde0a;
+    text-align: center;
+    background-color: black;
+    color: #ffde0a;
+
+    h1 {
+        font-family: $title-fonts;
+    }
+
+    nav {
+        background-color: #ffde0a;
+    }
+    button {
+        width: 25%;
+        background-color: black;
+        color: #ffde0a;
+        font-family: $nav-fonts;
+    }
+
+    p {
+        font-family: $body-fonts;
+    }
+}
+
+@media screen and (min-width: 600px) {
+    .card {
+        flex: 1 1 calc(50% - 2rem);
+    }
+}
+
+@media screen and (min-width: 900px){
+    .card{
+        flex: 1 1 calc(33% - 2rem);
+    }
+}
