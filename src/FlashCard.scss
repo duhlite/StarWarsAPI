@@ -27,6 +27,8 @@ $nav-fonts: 'Lato', sans-serif;
 
     p {
         font-family: $body-fonts;
+        max-height: 170px;
+        overflow: scroll;
     }
 }
 
